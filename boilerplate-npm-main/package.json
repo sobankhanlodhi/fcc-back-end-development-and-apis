@@ -11,5 +11,6 @@
 		"type": "git",
 		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
 	},
-	"author": "freeCodeCamp-student-soban"
+	"author": "freeCodeCamp-student-soban",
+	"description": "A boilerplate for a Node.js project using npm"
 }
