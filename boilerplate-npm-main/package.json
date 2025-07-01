@@ -14,5 +14,6 @@
 	"author": "freeCodeCamp-student-soban",
 	"description": "A boilerplate for a Node.js project using npm",
 	"keywords": ["node", "npm", "boilerplate", "freecodecamp"],
-	"license": "MIT"
+	"license": "MIT",
+	"version": "1.0.0"
 }
