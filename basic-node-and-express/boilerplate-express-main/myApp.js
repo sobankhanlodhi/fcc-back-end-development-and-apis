@@ -52,7 +52,13 @@ const nameGetMethodHandler = (req, res) => {
     })
 }
 
-app.route('/name').get(nameGetMethodHandler).post((req, res) => {})
+const namePOSTMethodHandler = (req, res) => {
+    res.json({
+        name: `${req.body.first} ${req.body.last}`
+    })
+}
+
+app.route('/name').get(nameGetMethodHandler).post(namePOSTMethodHandler)
 
 
 
