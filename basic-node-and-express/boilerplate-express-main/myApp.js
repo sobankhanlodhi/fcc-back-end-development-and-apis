@@ -43,6 +43,13 @@ app.get('/name', (req, res) => {
     })
 })
 
+const nameGetMethodHandler = (req, res) => {
+    res.json({
+        name: `${req.query.first} ${req.query.last}`
+    })
+}
+
+app.route('/name').get(nameGetMethodHandler).post((req, res) => {})
 
 
 
